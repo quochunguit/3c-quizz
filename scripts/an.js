@@ -69,3 +69,5 @@
 //     scrool_center_div();
 //     animate_hl();
 // })
+
+new WOW().init();
