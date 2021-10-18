@@ -71,3 +71,6 @@
 // })
 
 new WOW().init();
+
+
+$("#popup-user").fancybox().trigger('click');
