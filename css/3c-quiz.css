@@ -262,6 +262,7 @@
   font-size: calc(3px + 1vw);
   text-align: center;
   font-weight: 500;
+  font-family: "SVN-GothamMedium";
 }
 .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button{
   position: absolute;
@@ -556,7 +557,7 @@
 }
 .page-3c-question .page-result .blk-gr3c-animation .inner-gr3c-animation .main-home .content-p1 p{
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .page-3c-question .page-result .blk-gr3c-animation .inner-gr3c-animation .main-home .ctn-button-3{
   background: url(../images/ctn-button-2.png) no-repeat;
@@ -979,6 +980,7 @@
   font-size: calc(5px + 1.3vw);
       text-align: center;
       font-weight: 500;
+      font-family: "SVN-GothamMedium";
 }
 .popup-user .inner-popup{
   display: table;
