@@ -268,7 +268,7 @@
 }
 .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button{
   position: absolute;
-  width: 40%;
+  width: 35%;
   left: 50%;
   transform: translateX(-50%);
   bottom: 16%;
@@ -283,7 +283,7 @@
   background: url(../images/ctn-button-1.png) no-repeat;
   background-size: 100% 100%;
   float: left;
-  padding: 5% 10%;
+  padding: 6% 12%;
   font-size: calc(10px + 1vw);
   display: inline-block;
   color: #adacac;
@@ -292,7 +292,7 @@
   background: url(../images/ctn-button-2.png) no-repeat;
   background-size: 100% 100%;
   float: right;
-  padding: 5% 10%;
+  padding: 6% 10%;
   font-size: calc(10px + 1vw);
   display: inline-block;
   color: #FFF;
@@ -462,7 +462,7 @@
   background: url(../images/ctn-quiz-1.png) no-repeat;
   background-size: 100% 100%;
   float: left;
-  padding: 5% 10%;
+  padding: 5% 12%;
   font-size: calc(10px + 1vw);
   display: inline-block;
   color: #FFF;
@@ -473,7 +473,7 @@
   background: url(../images/ctn-quiz-2.png) no-repeat;
   background-size: 100% 100%;
   float: right;
-  padding: 5% 10%;
+  padding: 5% 12%;
   font-size: calc(10px + 1vw);
   display: inline-block;
   color: #FFF;
@@ -819,9 +819,11 @@
   }
   .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .the-le{
     font-size: calc(15px + 1vw);
+    padding: 6% 14%;
   }
   .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .choi-ngay{
     font-size: calc(15px + 1vw);
+    padding: 6% 12%;
   }
   .page-3c-question .fancybox-slide{
     width: 100%  !important;
@@ -870,7 +872,7 @@
   }
   .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button{
     width: 70%;
-    bottom: 17%;
+    bottom: 14%;
   }
   .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .content p{
     font-size: calc(9px + 1vw);
@@ -913,6 +915,12 @@
     right: 2%;
     top: 33%;
     width: 15%;
+  }
+}
+@media screen and (max-width: 400px){
+  .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button{
+    width: 65%;
+    bottom: 12.5%;
   }
 }
 .page-popup-user .fancybox-slide{
