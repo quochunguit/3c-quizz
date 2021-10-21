@@ -987,7 +987,7 @@
   z-index: 2;
 }
 .popup-user .content p{
-  font-size: calc(5px + 1vw);
+ /* font-size: calc(5px + 1vw);*/
       text-align: center;
       font-weight: 500;
       font-family: "SVN-GothamMedium";
@@ -1034,5 +1034,11 @@
   .page-popup-user .fancybox-slide--html .fancybox-close-small{
     width: 110px;
     height: 42px;
+  }
+}
+
+@media (min-width: 576px){
+  .popup-user .content p{
+    font-size: 20px;
   }
 }
