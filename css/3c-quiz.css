@@ -266,6 +266,9 @@
    font-family: "SVN-GothamMedium";
 
 }
+.page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .content p{
+  font-family: 'Roboto', sans-serif;
+}
 .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button{
   position: absolute;
   width: 35%;
@@ -276,6 +279,15 @@
   font-family: "UTMBebas";
   line-height: 1em;
 }
+.page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .the-le:hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+} 
+.page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .choi-ngay:hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+} 
+
 /*.page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button a:hover{
   text-decoration: none;
 }*/
@@ -445,7 +457,7 @@
   top: 51%;
 }
 .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .content{
-  animation: opacity-1 5s;
+  animation: opacity-1 3s;
 }
 @keyframes opacity-1{
   0%{
@@ -529,14 +541,14 @@
 }
 .page-3c-question .page-result .blk-gr3c-animation .inner-gr3c-animation .main-home .md-text-1{
   position: absolute;
-  top: 9.5%;
+  top: 10%;
   font-size: calc(20px + 4vw);
   font-family: "UTMBebas";
   color: #FFF;
   left: 50%;
   transform: translateX(-60%);
   z-index: 3;
-  line-height: 1;
+  line-height: 0.8;
 }
 .page-3c-question .page-result .blk-gr3c-animation .inner-gr3c-animation .main-home .bg-home{
   width: 75%;
@@ -1023,6 +1035,12 @@
 }
 .page-popup-user .btn-close{
   display: table !important;
+}
+
+@media screen and (max-width: 991px) and (min-width: 400px){
+  .page-3c-question .page-result .blk-gr3c-animation .inner-gr3c-animation .main-home .md-text-1{
+    top: 12%;
+  }
 }
 
 @media screen and (max-width: 767px){
