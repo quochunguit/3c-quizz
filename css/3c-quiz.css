@@ -1031,7 +1031,7 @@
     min-width: 200px;
   }
   .popup-user .content p {
-    font-size: calc(5px + 1.2vw);
+    font-size: calc(7px + 1.5vw);
   }
   .page-popup-user .fancybox-slide--html .fancybox-close-small{
     width: 110px;
@@ -1039,7 +1039,7 @@
   }
 }
 
-@media (min-width: 576px){
+@media (min-width: 767px){
   .popup-user .content p{
     font-size: 20px;
   }
