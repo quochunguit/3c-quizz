@@ -732,6 +732,7 @@
 .page-3c-question .fancybox-is-open .fancybox-bg{
   opacity: 0.6;
 }
+
 .page-3c-question .md-the-le .title-the-le{
   text-align: center;
   margin-bottom: 20px;
@@ -1015,7 +1016,8 @@
 }
 
 .page-popup-user .fancybox-is-open .fancybox-bg{
-  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
 }
 .page-popup-user .fancybox-button{
   display: none !important;
