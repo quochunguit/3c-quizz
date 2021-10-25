@@ -279,11 +279,21 @@
 .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .the-le:hover{
   transform: scale(1.2);
   transition-duration: 0.5s;
-} 
+}
+.page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .the-le:focus{
+ transform: scale(1.2);
+  transition-duration: 0.5s; 
+}
+
 .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .choi-ngay:hover{
   transform: scale(1.2);
   transition-duration: 0.5s;
 } 
+.page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .choi-ngay:focus{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+
+}
 
 /*.page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button a:hover{
   text-decoration: none;
