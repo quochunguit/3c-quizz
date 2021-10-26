@@ -280,22 +280,14 @@
   transform: scale(1.2);
   transition-duration: 0.5s;
 }
-.page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .the-le:focus{
- transform: scale(1.2);
-  transition-duration: 0.1s;
-  font-size: calc(18px + 1vw);
-}
+
 
 .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .choi-ngay:hover{
   transform: scale(1.2);
   transition-duration: 0.5s;
 } 
-.page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .choi-ngay:focus{
-  transform: scale(1.2);
-  transition-duration: 0.1s;
-  font-size: calc(18px + 1vw);
 
-}
+
 
 /*.page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button a:hover{
   text-decoration: none;
@@ -939,6 +931,17 @@
     right: 2%;
     top: 33%;
     width: 15%;
+  }
+  .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .the-le:focus{
+   transform: scale(1.2);
+    transition-duration: 0.1s;
+    font-size: calc(18px + 1vw);
+  }
+  .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .choi-ngay:focus{
+    transform: scale(1.2);
+    transition-duration: 0.1s;
+    font-size: calc(18px + 1vw);
+
   }
 }
 @media screen and (max-width: 400px){
