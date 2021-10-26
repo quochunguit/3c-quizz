@@ -282,7 +282,8 @@
 }
 .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .the-le:focus{
  transform: scale(1.2);
-  transition-duration: 0.5s; 
+  transition-duration: 0.1s;
+  font-size: calc(18px + 1vw);
 }
 
 .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .choi-ngay:hover{
@@ -291,7 +292,8 @@
 } 
 .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button .choi-ngay:focus{
   transform: scale(1.2);
-  transition-duration: 0.5s;
+  transition-duration: 0.1s;
+  font-size: calc(18px + 1vw);
 
 }
 
