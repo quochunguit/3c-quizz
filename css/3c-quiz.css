@@ -1108,6 +1108,9 @@
   color: #000;
   font-weight: 700;
 }
+.page-3c-question .md-the-le-1 span a{
+  color: #cc9933 !important;
+}
 @media (max-width: 767px){
 
   .page-3c-question .ico-book{
