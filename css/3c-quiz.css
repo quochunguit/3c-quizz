@@ -1083,3 +1083,36 @@
     font-size: 20px;
   }
 }
+
+.page-3c-question .ico-book{
+  position: absolute;
+  right: 17.5%;
+    top: 42%;
+    width: 13%;
+}
+.page-3c-question .ico-book a{
+  display: inline-block;
+}
+.page-3c-question .ico-book img{
+  width: 100%;
+}
+.page-3c-question .md-the-le-1 .title-the-le img{
+  width: 80%;
+}
+.page-3c-question .md-the-le-1 .cl-yl{
+  color: #cc9933;
+   font-size: 25px !important;
+   font-family: "UTMBebas";
+}
+.page-3c-question .md-the-le-1 span{
+  color: #000;
+  font-weight: 700;
+}
+@media (max-width: 767px){
+
+  .page-3c-question .ico-book{
+    right: 0%;
+    top: 50%;
+    width: 20%;
+  }
+}
