@@ -1225,3 +1225,46 @@
     width: 20%;
   }
 }
+
+.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-title h4{
+  text-align: center;
+  width: 50%;
+  display: table;
+  margin: 0 auto 35px auto;
+}
+.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-title h4 img{
+  width: 100%;
+  min-width: 280px;
+}
+.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content{
+  width: 70%;
+  display: table;
+  margin: 0 auto;
+}
+.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content .left-content{
+  width: 50%;
+  float: left;
+}
+.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content .right-content{
+  width: 50%;
+  float: right;
+}
+.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content img{
+  width: 70%;
+  display: table;
+  margin: 0 auto;
+  min-width: 100px;
+}
+.page-beer100{
+  background: url(../images/bg-beer100.jpg) no-repeat;
+  background-size: cover;
+    position: relative;
+}
+@media screen and (max-width: 767px){
+  .page-beer100 .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button{
+    bottom: 18%;
+  }
+  .page-beer100 .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .gift-box{
+    top: 33%;
+  }
+}
